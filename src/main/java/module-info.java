@@ -6,5 +6,6 @@ module de.medienproduktionen.test {
 
 
     opens de.medienproduktionen.test to javafx.fxml;
+
     exports de.medienproduktionen.test;
 }
