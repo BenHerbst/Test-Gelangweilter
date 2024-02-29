@@ -1,0 +1,78 @@
+repo_name: BenHerbst/Test-Gelangweilter
+report_id: b965e1bef653e8bb97bea959b051beb1
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:06:11+00:00'
+requested_by: BenHerbst
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/BenHerbst/Test-Gelangweilter
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/BenHerbst/Test-Gelangweilter
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/BenHerbst/Test-Gelangweilter
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/BenHerbst/Test-Gelangweilter/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Florian
+  last_updated_on: 2022-06-11 21:57:14.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/Test-Gelangweilter/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Florian
+  last_updated_on: 2022-06-11 21:57:14.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/Test-Gelangweilter/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Florian
+  last_updated_on: 2022-06-11 21:57:14.000000000 Z
